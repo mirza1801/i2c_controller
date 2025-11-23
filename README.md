@@ -6,7 +6,7 @@ The design implements both **WRITE** and **READ** transactions with acknowledgme
 
 ---
 
-## ✅ Simulation Output (Expected Console Log)
+## Simulation Output (Expected Console Log)
 
 ```
 Starting WRITE
@@ -20,7 +20,7 @@ Read Done. ACK = 1, Data = 00001010
 
 ---
 
-## 🧩 Folder Structure
+## Folder Structure
 
 ```text
 i2c_controller/
@@ -42,7 +42,7 @@ i2c_controller/
 
 ---
 
-## 📘 File Descriptions
+## File Descriptions
 
 | File | Description |
 |------|--------------|
@@ -56,9 +56,9 @@ i2c_controller/
 
 ---
 
-## ▶️ How to Build & Run
+## How to Build & Run
 
-### 🔹 Using Synopsys VCS
+### •Using Synopsys VCS
 ```bash
 # 1) Compile
 vcs -sverilog -full64 -debug_access+all -timescale=1ns/1ps \
@@ -69,7 +69,7 @@ vcs -sverilog -full64 -debug_access+all -timescale=1ns/1ps \
 ./simv -l logs/i2c.log -no_save
 ```
 
-### 🔹 Using Icarus Verilog
+### •Using Icarus Verilog
 ```bash
 # Compile (SystemVerilog-2012)
 iverilog -g2012 -o simv rtl/i2c_master.v models/i2c_slave_model.v tb/i2c_master_tb.v
@@ -88,7 +88,7 @@ gtkwave dump.vcd &
 
 ---
 
-## 🧰 Makefile Shortcuts
+## Makefile Shortcuts
 
 ```bash
 make run           # Compile & run with Synopsys VCS
@@ -98,7 +98,7 @@ make clean         # Delete build artifacts & waveforms
 
 ---
 
-## 🧱 Features
+## Features
 
 - Fully synthesizable **I²C Master RTL**
 - Behavioral **Slave Model** for simulation
@@ -108,7 +108,7 @@ make clean         # Delete build artifacts & waveforms
 
 ---
 
-## 📊 Results Preview
+## Results Preview
 
 | Screenshot | Description |
 |-------------|-------------|
@@ -117,7 +117,7 @@ make clean         # Delete build artifacts & waveforms
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 | Tool | Purpose |
 |------|----------|
