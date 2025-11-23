@@ -1,0 +1,21 @@
+# Simulation and compile artifacts
+simv
+*.vpd
+*.vcd
+*.fsdb
+*.log
+*.jou
+*.key
+DVEfiles/
+csrc/
+*.daidir/
+xsim.dir/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Temporary output
+logs/
+waveforms/
