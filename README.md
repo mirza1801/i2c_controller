@@ -1,4 +1,4 @@
-# 🧠 I²C Controller — Master and Slave Simulation (SystemVerilog)
+#  I²C Controller — Master and Slave Simulation (SystemVerilog)
 
 This repository demonstrates an I²C (Inter-Integrated Circuit) **Master Controller** in Verilog, 
 paired with a simple **Behavioral Slave Model** for simulation and waveform analysis.  
