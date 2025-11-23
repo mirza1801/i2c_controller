@@ -1,0 +1,14 @@
+Command: /home/users3/mab37646/p3/./simv -l i2c.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  May  8 16:17 2025
+Starting WRITE
+Write Done. ACK = 1
+Starting READ
+Read Done. ACK = 1, Data = 00001010
+$finish called from file "i2c_master_tb.v", line 51.
+$finish at simulation time             91165000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 91165000 ps
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Thu May  8 16:17:12 2025
